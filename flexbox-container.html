@@ -10,10 +10,18 @@
         #conteudo {
             background: #dcdcdc;
             height: 400px;
-            display: block;
-        }
+            display: flex;
 
+            /*
+            row|row-reverse|column|column-reverse
+            */
+            flex-direction: row-reverse;
+        }
+        
         .item {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
             background: white;
             border: 1px solid gray;
         }
